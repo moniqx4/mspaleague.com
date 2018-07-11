@@ -1,0 +1,53 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "MSPA Madden League Site"
+theme = "dream-plus"
+
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
+disqusShortname = "dream-plus"
+
+enableRobotsTXT = true
+
+#Enable Hugo Emoji Conversion
+enableEmoji=true
+
+[params]
+	author = "Utkarsh Verma"
+	description = "Just a random blog for random stuff, mostly tech-related."
+	avatar = "http://res.cloudinary.com/mspaleague/image/upload/g_north,l_mspa:website:CommishText,x_0,y_100/v1531001086/mspa/website/ChrisandCommish2.jpg"
+	motto = "A keen maker, programmer and an Instructables author."
+	enableToc = true
+	enableShareCard = true
+
+	favicon = "/img/defaultFav.ico"
+  	
+  	#Background settings
+	enableColorBG= false
+	bgBlur = "0px"
+	bgImage = "http://bit.ly/2gPLxZ4"
+  
+	#Post-displaying Settings
+	enableTags = true
+	enableCategories = true
+
+	#Cards or posts shown per page
+	itemsPerPage = 4
+
+	#Set whether you're hosting "cards" or "post"
+	contentType = "post"
+
+	#Enable Twitter Emoji
+	twitterEmoji=true
+
+[social]
+	email = "moniqx4@gmail.com"
+	github = "moniqx4"
+	stackoverflow = ""
+	medium = ""
+	twitter = "moniqx4" 
+	siteStartYear = 2018
