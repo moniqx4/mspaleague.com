@@ -1,0 +1,33 @@
+---
+label: SportsLeague
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: title
+  name: title
+  description: MSPA CFM
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  description: Date post was created
+  hidden: true
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: tags
+  hidden: true
+- type: file
+  name: banner_image
+  label: banner_image
+  description: Banner for site
+  default: "/uploads/MSPABanner4.jpeg"
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+  hidden: true
