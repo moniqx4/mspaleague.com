@@ -31,3 +31,5 @@ fields:
   config:
     required: true
   hidden: true
+pages:
+- content/main-event.md
