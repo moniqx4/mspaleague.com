@@ -1,53 +1,34 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "MSPA Madden League Site"
-theme = "dream-plus"
-
-
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsOptions = "linenos=table"
-
 disqusShortname = "dream-plus"
-
+enableEmoji = true
 enableRobotsTXT = true
-
-#Enable Hugo Emoji Conversion
-enableEmoji=true
-
+languageCode = "en-us"
+pygmentsCodeFences = true
+pygmentsOptions = "linenos=table"
+pygmentsUseClasses = true
+theme = "dream-plus"
+title = "MSPA Madden League Site"
 [params]
-	author = "Utkarsh Verma"
-	description = "Just a random blog for random stuff, mostly tech-related."
-	avatar = "http://res.cloudinary.com/mspaleague/image/upload/g_north,l_mspa:website:CommishText,x_0,y_100/v1531001086/mspa/website/ChrisandCommish2.jpg"
-	motto = "A keen maker, programmer and an Instructables author."
-	enableToc = true
-	enableShareCard = true
-
-	favicon = "/img/defaultFav.ico"
-  	
-  	#Background settings
-	enableColorBG= false
-	bgBlur = "0px"
-	bgImage = "http://bit.ly/2gPLxZ4"
-  
-	#Post-displaying Settings
-	enableTags = true
-	enableCategories = true
-
-	#Cards or posts shown per page
-	itemsPerPage = 4
-
-	#Set whether you're hosting "cards" or "post"
-	contentType = "post"
-
-	#Enable Twitter Emoji
-	twitterEmoji=true
-
+author = "ML Productions"
+avatar = "http://res.cloudinary.com/mspaleague/image/upload/g_north,l_mspa:website:CommishText,x_0,y_100/v1531001086/mspa/website/ChrisandCommish2.jpg"
+bgBlur = "0px"
+bgImage = "http://res.cloudinary.com/mspaleague/image/upload/v1518833237/mspa/misc/football_stadiumlights_bcgrd.jpg"
+contentType = "post"
+description = "MSPA CFM League Website"
+enableCategories = true
+enableColorBG = false
+enableShareCard = true
+enableTags = true
+enableToc = true
+favicon = "/img/defaultFav.ico"
+itemsPerPage = 4
+motto = "A keen maker, programmer and an Instructables author."
+twitterEmoji = true
 [social]
-	email = "moniqx4@gmail.com"
-	github = "moniqx4"
-	stackoverflow = ""
-	medium = ""
-	twitter = "moniqx4" 
-	siteStartYear = 2018
+email = "moniqx4@gmail.com"
+github = "moniqx4"
+medium = ""
+siteStartYear = 2018
+stackoverflow = ""
+twitter = "moniqx4"
